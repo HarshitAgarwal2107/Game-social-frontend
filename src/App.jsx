@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Layout from "./components/layout.jsx";
+import Layout from "./components/Layout.jsx";
 import HomePage from "./HomePage.jsx";
 import Dashboard from "./components/DashBoard.jsx";
 import GameDetails from "./components/GameDetails.jsx";
