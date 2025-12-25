@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 // Hooks
 import { useAuth } from "../hooks/useAuth";
 import { useSocket } from "../hooks/useSocket";
-import { useTextChat } from "../hooks/useTextchat";
+import { useTextChat } from "../hooks/useTextChat";
 // import { useVoiceChat } from "../hooks/useVoiceChat";  // ← Removed
 
 export default function GameChat({ gameId }) {
