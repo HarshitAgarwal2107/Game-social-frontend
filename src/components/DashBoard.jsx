@@ -30,7 +30,7 @@ export default function Dashboard() {
   };
 
   const handleConnect = provider => {
-    window.location.href = `${process.env.API_BASE_URL}/auth/${provider}`;
+    window.location.href = `${process.env.VITE_API_URL}/auth/${provider}`;
   };
 
   const isConnected = provider =>

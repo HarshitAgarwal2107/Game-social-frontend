@@ -195,7 +195,7 @@ function LoginPage() {
   };
 
   const handleSocialLogin = (provider) => {
-    window.location.href = `${process.env.API_BASE_URL}/auth/${provider}`;
+    window.location.href = `${import.meta.env.VITE_API_URL}/auth/${provider}`;
   };
 
   if (checkingSession) {
